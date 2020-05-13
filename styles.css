@@ -1,0 +1,381 @@
+/*general*/
+
+body{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/*.wrapper{
+	margin: auto;
+  	width: 90%;
+  	padding: 2px 5px;
+  	color: black;
+}*/
+
+/*header*/
+.header{
+  	margin: auto;
+  	background-image: url('./img/background.jpg');
+  	background-size: auto;
+}
+
+.inner-header {
+	width:90%;
+	margin:auto;
+}
+.logo{
+ 	width:20%;
+}
+
+.page_title{
+	text-align: center;
+	color: white;
+	font-size: 580%;
+	font-weight: bolder;
+	padding: 10% 0% 0% 0%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.page_title_sub{
+	text-align: center;
+	font-size: 250%;
+	color: white;
+	padding: 1% 0% 8% 0%;
+	font-style: italic;
+}
+/*.background{
+  	height: auto;
+  	width: auto;
+  	align-content: center;
+
+}
+*/
+.logo img {
+  	width:100%;
+  	height:auto;
+  	max-width:90px;
+  	max-height:90px;
+  	padding-top: 4%;
+		padding-left: 3%;
+}
+
+.rapid-links{
+	width: 79%;
+ 	height: 2%;
+ 	text-align: right;
+ 	/*padding: 3.4% 0% 0% 0%; -> in order to center the list elements between the upper and bottom border*/
+ 	padding: 0.7% 0% 1.7% 0%;
+}
+
+.rapid-links ul{
+  	list-style: none;
+}
+
+.rapid-links li{
+   display: inline;
+   padding: 1%;
+
+}
+
+.rapid-links li a{
+	text-decoration: none;
+	color: white;
+	font-size: 140%;
+}
+
+.rapid-links li:hover {
+  	background-color: #737373;
+		color: black;
+}
+
+.logo, .rapid-links{
+	display: inline-block;
+	float:left;
+}
+
+.clear{
+	clear: both;
+}
+
+/*content*/
+.content{
+	/*background-color: LightBlue;*/
+	width:60%;
+	margin:10px auto;
+	box-shadow: 1px 0px 5px 0px rgba(0,0,0,1);
+	padding: 10px;
+}
+
+.title a{
+	text-decoration: none;
+	color: #5b5b5b;
+}
+
+.title a:hover{
+	opacity: 80%;
+	color: black;
+}
+
+.title h2{
+	font-weight: bolder;
+	font-size: 50px;
+	text-align: center;
+	/*width:40%;*/
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+.preview p{
+	font-style: italic;
+	font-size: 25px;
+	text-align: center;
+	color: black;
+}
+
+p{
+	font-size: 20px;
+	text-align: justify;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	/*padding: 0% 20%;*/
+	line-height: 1.8;
+	padding:0 10px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    width: 60%;
+}
+
+.button{
+	text-align: center;
+	float: right;
+	background-color: #262626;
+	padding: 1%;
+	margin-top: 3%;
+}
+
+.button a {
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.button:hover{
+	background-color: #666666;
+}
+/*.button a:hover{
+	color: #000;
+}*/
+
+
+/*footer*/
+.footer{
+	padding-top: 4%;
+	background-color:  white;
+	text-align: center;
+	margin: 10px auto;
+	width: auto;
+	/*height: 20%;*/
+}
+
+.bottomLinks, .disclaimer {
+	display: inline-block;
+}
+
+.bottomLinks{
+	width: 50%;
+	/*background-color: green;
+	border: 1px solid red;*/
+}
+
+.bottomLinks ul{
+	width: auto;
+	text-align: right;
+	margin-right: 42%;
+}
+
+.bottomLinks ul li{
+	list-style: none;
+	border: none;
+	width: auto;
+	display: inline-block;
+	padding-right: 1%;
+}
+
+.social  {
+	margin: 0.3%;
+  border-radius: 50%;
+	max-width: 40px;
+	max-height: 40px;
+	filter: grayscale(100%);
+}
+
+.social:hover {
+    -webkit-transform: scaleX(-1);
+		-ms-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-moz-transform: scaleX(-1);
+		transform: scaleX(-1);
+		filter: grayscale(0%);
+}
+
+.disclaimer{
+	width: 30%;
+	font-size: 20px;
+	/*padding: 0% 0% 0% 10%;*/
+	/*background-color: red;
+	border: 1px solid green;*/
+}
+
+/*Contact*/
+
+.page_title_contact{
+	text-align: left;
+	color: white;
+	font-size: 580%;
+	font-weight: bolder;
+	padding: 8% 0% 2% 0%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.form-group-contact{
+	width: 100%;
+	padding: 1%;
+	font-size: 20px;
+}
+.form-control-contact{
+	width: 20%;
+	padding: 0.8%;
+	margin-left: 1%;
+}
+.name{
+	width: 100%;
+	padding: 1%;
+}
+.email{
+	width: 100%;
+	padding: 1%;
+}
+.phone_number{
+	width: 100%;
+	padding: 1%;
+}
+.message .label{
+	width: 100%;
+	padding: 1%;    /*Cum centrez textul pe caseta?*/
+}
+.return{
+	width: 20%;
+	text-align: center;
+	background-color: #262626;
+	padding: 1%;
+	margin-left: 38%;
+	margin-bottom: 3%;	/*Cum fac functionalitate de "back" pe tot butonul, si nu numai pe text?*/
+}
+.return a {
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.return:hover{
+	background-color: #666666;
+}
+
+
+/*Create Post*/
+
+.page_title_create{
+	text-align: center;
+	color: white;
+	font-size: 580%;
+	font-weight: bolder;
+	padding: 8% 0% 2% 0%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.toolbar_buttons{
+	text-align: center;
+	display: flex;
+	padding: rem;
+	/* margin-top: 5px;
+	height: 10 px;
+	width: 10 px;  */
+}
+
+.btn-group{						/*Functionalitate pe butoane (undo, redo, bold, italic, underline, etc*/
+	text-align: center;
+	/* display: inline; */
+	padding: 1rem;
+	/* height: 50px;
+	padding: 1%;
+	margin-top: 1%;
+	width: 50px; */
+
+}
+
+.text_title{
+	text-align: left;
+	height: 30px;
+	/*margin-left: 15px;*/
+}
+
+.text_title > textarea{
+	width: 50%;
+	margin-top: 1%;
+	font-size: 15px;
+}
+.text_box > textarea, 
+.form-group > textarea {
+	width:100%;
+	font-size: 15px;
+}
+
+.text_box{
+	text-align: left;
+	padding-top: 1%;
+	margin-top: 2%;
+	
+}
+
+
+.poster{
+	width: 15%;
+	text-align: center;
+	background-color: #262626;
+	padding: 1%;
+	float: right;
+	margin-right: 2.5%;
+	margin-top: 1%;
+
+}
+.poster a{
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*Log In / Sign Up */
+
+.form-group-login{
+	width: 100%;
+	padding: 1%;
+	font-size: 20px;
+	text-align: right;
+	align-content: left;
+}
+
+.form-control-login{
+	text-align: left;
+	margin-right: 40%;
+	padding-right: 10%;
+}
+
+/*.buttonlogin{}*/
